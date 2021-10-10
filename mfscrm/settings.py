@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-eqi(4^zf2j0v(#$i_irv&=8zb@%7%4tp%ulxdz3q(w5$65sv)^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'crm',
     'mathfilters',
     'django.contrib.humanize',
-    'crispy_forms_tags',
+    'crispy_forms,
 ]
 
 MIDDLEWARE = [

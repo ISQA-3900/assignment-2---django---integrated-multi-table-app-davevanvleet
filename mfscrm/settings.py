@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'crm',
     'mathfilters',
     'django.contrib.humanize',
-    'crispy_forms',
 ]
 
 MIDDLEWARE = [
